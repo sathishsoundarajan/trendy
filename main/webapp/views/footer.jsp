@@ -4,7 +4,7 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>online book store</title>
+<title> trendy</title>
 <meta name="viewport" content="width=device-width,height=device-height,initial-scale=1">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
@@ -47,7 +47,7 @@ padding-bottom: 1px;
 <footer class="container-fluid text-center">
  <div class="row1">
     <h4><div class="col-sm-2" style="background-color:lavender;">&copy copyrights reserved</div>
-    <div class="col-sm-6" style="background-color:lavender;"><span class="glyphicon glyphicon-envelope"> <b>mail</b>:public@bookstore.in</span> </div>
+    <div class="col-sm-6" style="background-color:lavender;"><span class="glyphicon glyphicon-envelope"> <b>mail</b>:public@trendy.in</span> </div>
     <div class="col-sm-4" style="background-color:lavender;">
     
 follow us @ <a href="www.facebook.com"><i class="fa fa-facebook"> </i></a>                 

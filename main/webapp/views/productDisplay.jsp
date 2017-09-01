@@ -12,7 +12,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
 
-<title>bookstore</title>
+<title>Trendy</title>
 <style>
 div{
 font-family: monotype corsiva;
@@ -30,11 +30,11 @@ font-family: monotype corsiva;
         <div class="row">
 
             <div class="col-md-3">
-                <p class="lead">BOOK STORE</p>
+                <p class="lead">Trendy</p>
                 <div class="list-group">
-                    <a href="categoryDropdown/101" class="list-group-item">Kids</a>
-                    <a href="categoryDropdown/102" class="list-group-item">Youngsters and Teens</a>
-                    <a href="categoryDropdown/103" class="list-group-item">Text Book</a>
+                    <a href="categoryDropdown/101" class="list-group-item">Shirts</a>
+                    <a href="categoryDropdown/102" class="list-group-item"> Pants</a>
+                    <a href="categoryDropdown/103" class="list-group-item">Trousers</a>
                 </div>
             </div>
    <div class="col-md-9">
@@ -112,7 +112,7 @@ font-family: monotype corsiva;
       * removeItemFromCart method is used to remove a item from the cart
       */
      $scope.removeItemFromCart = function (id) {
-         $http.put('http://localhost:8080/bookstore/removeItem/'+id).success(function (data) {
+         $http.put('http://localhost:8080/trendy/removeItem/'+id).success(function (data) {
              $scope.refreshCartItems();
          });
      };
@@ -121,7 +121,7 @@ font-family: monotype corsiva;
       * addItemToCart method is used to add items into the cart
       */
      $scope.addItemToCart = function (id) {
-         $http.put('http://localhost:8080/bookstore/categoryDropdown/productDisplay/usercart/cart/addItem/'+id).success(function (data) {
+         $http.put('http://localhost:8080/trendy/categoryDropdown/productDisplay/usercart/cart/addItem/'+id).success(function (data) {
              alert("Item added to the cart!")
              
          });
@@ -144,7 +144,7 @@ font-family: monotype corsiva;
  	 * refreshCartItems method is called by others methods in same controller to refresh the cart
  	 */
      $scope.refreshCartItems = function () {
-         $http.get('http://localhost:8080/bookstore/refreshCart/'+$scope.cartId).success(function (data) {
+         $http.get('http://localhost:8080/trendy/refreshCart/'+$scope.cartId).success(function (data) {
             $scope.cart=data;
          });
      };
@@ -153,7 +153,7 @@ font-family: monotype corsiva;
       * clearCartItems method is used to delete all items from the cart
       */
      $scope.clearCartItems = function () {
-     	$http['delete']('http://localhost:8080/bookstore/clearCartItems/'+$scope.cartId).success(function (data)
+     	$http['delete']('http://localhost:8080/trendy/clearCartItems/'+$scope.cartId).success(function (data)
      			{$scope.refreshCartItems()
      		});
      };

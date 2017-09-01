@@ -15,7 +15,7 @@
 <style type="text/css">
 
 .back {
-	background-image: url("http://previews.123rf.com/images/urfingus/urfingus1601/urfingus160100045/50181374-3d-render-of-big-pile-of-colorful-books-on-the-right-side-isolated-on-a-white-background--Stock-Photo.jpg");
+	background-image: url("http://www.cooph.com/imgservice/0001/1/1050/fileadmin/upload_media/shop/shopify-images/apparel/apparel-male/shirts/blue-tone/cooph-shirts-bluetone-m-background.jpg");
 	background-size:100%;
 }
 
@@ -26,23 +26,20 @@
 <div class="back">
 <h1 class="entry-title">Contact</h1>
 <div class="entry-content">
-<p><strong>book store Ltd</strong><br />
+<p><strong>Trendy Ltd</strong><br />
 27 Corsham Street<br />
 N1 6DR<br />
 Chennai<br />
 India</p>
 <p>Tel (IN): +44 (0) 20 51 236<br />
-<a href="mailto:public@bookstore.com">public@bookstore.in</a></p>
+<a href="mailto:public@trendy.com">public@trendy.in</a></p>
 <p><strong>Company registration number  :</strong> 7257821</p>
 <p><strong>CEO</strong><br />
 Sangeeth<br/>
- <a href="mailto:ceo@bookstore.com">ceo@bookstore.in</a><br />
+ <a href="mailto:ceo@trendy.com">ceo@trendy.in</a><br />
 Tel: +44 58 56 58 5</p>
  <br />
-<p><strong>Responsible for Press Relations and Cooperations</strong><br />
-Thomas<br />
-<a href="mailto:tbm@bookstore.in">tbm@bookstore.in</a><br />
-Tel: +44 81 81 20 2</p>
+
 <p><strong>Responsible for Sales and supplies</strong><br />
 mark<br />
 <a href="mailto:kbm@bookstore.com">kbm@bookstore.in</a><br />

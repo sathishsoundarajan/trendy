@@ -29,7 +29,7 @@ body {
       <div class="rowe">
         <div class="col-md-7">
           <h2 class="featurette-heading">And lastly, this one. <span class="text-muted">About Us</span></h2>
-          <p class="lead">Bookstore.com was established in india in 2012, under the name book store, and has always focused on publishing educational material for students and business professionals. The company continuously aims to set new standards in the world of modern publishing based on its readers needs.
+          <p class="lead">Trendy.com was established in india in 2012, under the name tredy.In trendy the product only available for men clothing and has always focused on give the trendy and new fashion dresses to the customer. In trendy you purchase all kind of stylish,fashion shirts,troucers,pants and T-SHIRTS continuously aims to set new standards in the world of modern publishing based on its readers needs.
 In 2016, the company made a strategic leap and became the worlds first online book publisher to provide textbooks for students.
  book store site has experienced massive growth and is now the largest Book publisher.With its headquarters in Chennai and  book store also has offices in Mumbai, Bangalore and Delhi.
 As a global Book publisher, Book store site offers a wide range of over 1000 textbooks for students and 600 Books for business professionals .
@@ -39,12 +39,7 @@ As a global Book publisher, Book store site offers a wide range of over 1000 tex
           <img class="featurette-image img-responsive center-block" src="https://wallpaperscraft.com/image/books_toys_shelf_67634_1920x1080.jpg" alt="Generic placeholder image"><br>
           <br>
         </div>
-   
-  <div>   
-<p class="lead">   Every book purchased from Better World Books contributes to individual literacy throughout the world and the potential for a better life. Clearly, we can not do this work without our customers. That is why we are so passionate about trying to offer the best price, selection, customer service, and overall shopping experience.
-Thanks for joining us in our mission to create a better world, one book at a time.</p>
-      </div>
-      </div> 
+     </div> 
 <br>
 <br>
 <br>

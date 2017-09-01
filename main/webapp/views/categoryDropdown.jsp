@@ -59,11 +59,11 @@
         <div class="row">
 
             <div class="col-md-3">
-                <p class="lead">BOOK STORE</p>
+                <p class="lead">TRENDY</p>
                 <div class="list-group">
-                    <a href="categoryDropdown/101" class="list-group-item">Kids</a>
-                    <a href="categoryDropdown/102" class="list-group-item">Youngsters and Teens</a>
-                    <a href="categoryDropdown/103" class="list-group-item">Text Book</a>
+                    <a href="categoryDropdown/101" class="list-group-item">Shirts</a>
+                    <a href="categoryDropdown/102" class="list-group-item">Pants</a>
+                    <a href="categoryDropdown/103" class="list-group-item">T-Shirts</a>
                 </div>
             </div>
    <div class="col-md-9">;

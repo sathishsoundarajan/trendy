@@ -22,13 +22,13 @@ font-family: monotype corsiva;
 	
 }
 .navbar {
-background-color: #661a00;
+background-color:black;
 	font-family: monotype corsiva;
 	font-size: 1.5em;
 	font-weight: bold;
 	}
 	body {
-	background-image: url("http://eskipaper.com/images/necklace-hd-1.jpg");
+	background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8PcibwAwVT-m5YFbf6NVnQnXWFkf8ua4vZqfN9RJnbxVblufkoA");
 	background-size:300%;
 	background-repeat:no-repeat;
 }
@@ -37,7 +37,7 @@ background-color: #661a00;
 </head>
 <body>
 <center>
-		<h1 style="font-family:monotype corsiva;"><img src="https://cmkt-image-prd.global.ssl.fastly.net/0.1.0/ps/564985/580/386/m1/fpnw/wm0/1-.jpg?1436816495&s=36d5eceba23d9355349d47697d8069b3	" height="77" width="77" style="font-family: monotype corsiva;" /><b>Book Store</b></h1>
+		<h1>Trendy</h1>
 	</center>
 	
 <div id="Admin">

@@ -22,14 +22,14 @@
 h3{
 font-family: monotype corsiva;
 	font-size: 1.5em;
-	font-weight: bold;
+	font-weight: italic;
 	
 }
 body {
-	background-image: url("http://eskipaper.com/images/necklace-hd-1.jpg");
+	background-color: 	#F8F8FF;
 	background-repeat: repeat;
-	background-width: 150%;
-	background-height: 150%;
+	background-width: 300%;
+	background-height: 300%;
 	}
 
 .navbar {
@@ -48,7 +48,7 @@ background-color: #661a00;
 
 	<header>
 		<center>
-		<h1 style="font-family:monotype corsiva;"><img src="https://cmkt-image-prd.global.ssl.fastly.net/0.1.0/ps/564985/580/386/m1/fpnw/wm0/1-.jpg?1436816495&s=36d5eceba23d9355349d47697d8069b3	" height="77" width="77" style="font-family: monotype corsiva;" /><b>bookstore</b></h1>
+		<h1><b>Trendy</b></h1>
 	</center>
 	<nav class="navbar navbar-inverse">
 
@@ -158,7 +158,7 @@ background-color: #661a00;
       * removeItemFromCart method is used to remove a item from the cart
       */
       $scope.removeItemFromCart = function (id) {
-         $http['delete']('http://localhost:8080/bookstore/categoryDropdown/productDisplay/usercart/cart/removeItem/'+id).success(function (data) {
+         $http['delete']('http://localhost:8080/trendy/categoryDropdown/productDisplay/usercart/cart/removeItem/'+id).success(function (data) {
              $scope.refreshCartItems();
          });
      }; 
@@ -167,7 +167,7 @@ background-color: #661a00;
       * addItemToCart method is used to add items into the cart
       */
      $scope.addItemToCart = function (id) {
-         $http.put('http://localhost:8080/bookstore/usercart/cart/addItem/'+id).success(function (data) {
+         $http.put('http://localhost:8080/trendy/usercart/cart/addItem/'+id).success(function (data) {
              alert("Item added to the cart!")
          });
      };
@@ -189,7 +189,7 @@ background-color: #661a00;
  	 * refreshCartItems method is called by others methods in same controller to refresh the cart
  	 */
      $scope.refreshCartItems = function () {
-         $http.get('http://localhost:8080/bookstore/categoryDropdown/productDisplay/usercart/cart/refreshCart/'+$scope.cartId).success(function (data) {
+         $http.get('http://localhost:8080/trendy/categoryDropdown/productDisplay/usercart/cart/refreshCart/'+$scope.cartId).success(function (data) {
             $scope.cart=data;
          });
      };
@@ -198,7 +198,7 @@ background-color: #661a00;
       * clearCartItems method is used to delete all items from the cart
       */
      $scope.clearCartItems = function () {
-     	$http['delete']('http://localhost:8080/bookstore/categoryDropdown/productDisplay/usercart/cart/clearCartItems/'+$scope.cartId).success(function (data)
+     	$http['delete']('http://localhost:8080/trendy/categoryDropdown/productDisplay/usercart/cart/clearCartItems/'+$scope.cartId).success(function (data)
      			{$scope.refreshCartItems()
      		});
      };
